@@ -1,0 +1,17 @@
+system_TM4C1294_TW.pbi: \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\src\system_TM4C1294_TW.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\src/TM4C1294NCPDT.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include\core_cm4.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include/cmsis_version.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include/cmsis_compiler.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\src/system_TM4C1294.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Users\Pichau\Downloads\EK-TM4C1294_RTOS_IAR8-master\Projects\tarefas\..\..\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h
