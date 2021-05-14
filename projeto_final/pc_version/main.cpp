@@ -2,24 +2,36 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <windows.h>
+#define WINDOWS
 
+float velocity = 0;
+float acceleration = 0;
+float angle = 0;
+
+#if defined(WINDOWS)
+#include <windows.h>
 #define user_print(...) {printf(__VA_ARGS__);}
 #define user_delay(milliseconds) {Sleep(milliseconds);}
 #define COMM_TIMEOUT 300
-
 #define COM_PORT "\\\\.\\COM3"
 #define baudrate 9600
 #define byteSize 8
 #define stopBits ONESTOPBIT
 #define parity NOPARITY
 
-float v_inicial = 0;
-float a_inicial = 0;
-
 HANDLE serialHandle;
 DCB serialParams = { 0 };
 COMMTIMEOUTS timeout = { 0 };
+
+DWORD WINAPI f(LPVOID param) {
+    while(1) {
+        velocity += acceleration;        
+        // user_print("v %f a %f\n", velocity, acceleration);
+        user_delay(1000);
+    }
+}
+#endif
+
 
 int comm_init () ;
 int comm_write (char* wbuffer, int wbuffer_len) ;
@@ -34,43 +46,69 @@ int car_read_ultrassound (float* ret) ;
 int car_read_rf (float* ret) ;
 int car_read_cam (float* ret) ;
 
-
 int main (int argc, char **argv) {
 
     user_print("hello world!\n");
 
+#if defined(WINDOWS)
+    CreateThread(NULL, 0, f, NULL, 0, NULL);
+#endif
     comm_init();
 
     // car_wait_start();
-    // user_delay(1000);
+    user_delay(1000);
 
     float car_sensor_read = 0;
 
+    car_accelerate(1.0);
+    user_delay(6000);
+    car_accelerate(0);
+
+    car_turn(10);
+    user_delay(1000);
+
     while (true) {
-        car_turn(10.0f);
-        user_delay(2000);
+        // car_turn(10.0f);
+        // // user_delay(2000);
 
-        if (!car_read_laser(&car_sensor_read)) {user_print("Laser: %f\n", car_sensor_read);}
-        else {user_print("error reading laser\n");}
-        user_delay(1000);
+        // if (!car_read_laser(&car_sensor_read)) {user_print("Laser: %f\n", car_sensor_read);}
+        // else {user_print("error reading laser\n");}
+        // // user_delay(1000);
 
-        if (!car_read_ultrassound(&car_sensor_read)) {user_print("Ultrassound: %f\n", car_sensor_read);}
-        else {user_print("error reading laser\n");}
-        user_delay(1000);
+        // if (!car_read_ultrassound(&car_sensor_read)) {user_print("Ultrassound: %f\n", car_sensor_read);}
+        // else {user_print("error reading laser\n");}
+        // // user_delay(1000);
 
-        car_read_rf(&car_sensor_read);
-        user_print("Rf: %f\n", car_sensor_read);
-        user_delay(1000);
+        // car_read_rf(&car_sensor_read);
+        // user_print("Rf: %f\n", car_sensor_read);
+        // // user_delay(1000);
 
+        // car_read_cam(&car_sensor_read);
+        // user_print("Cameras: %f\n", car_sensor_read);
+        // // user_delay(1000);
+        
         car_read_cam(&car_sensor_read);
-        user_print("Cameras: %f\n", car_sensor_read);
-        user_delay(1000);
+        user_delay(300);
+        car_turn(-car_sensor_read);
+        user_delay(300);
+
+        // if(car_sensor_read > 10 && angle > -20) {
+        //     angle -= 5.0;
+        //     car_turn(-5.0);
+        // }
+    
+        // else if (car_sensor_read < -10 && angle < 20) {
+        //     angle += 5.0;
+        //     car_turn(5.0);
+        // }
+        // user_delay(300);
     }
 
     CloseHandle(serialHandle);
     return 0;
 }
 
+#if defined(WINDOWS)
 int comm_init () {
     // serialHandle = CreateFile(COM_PORT, GENERIC_READ | GENERIC_WRITE, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
     serialHandle = CreateFile(COM_PORT, GENERIC_READ | GENERIC_WRITE, 0, 0, OPEN_EXISTING, 0, 0);
@@ -109,7 +147,7 @@ int comm_write(char* wbuffer, int wbuffer_len) {
     PurgeComm(serialHandle, PURGE_RXCLEAR | PURGE_TXCLEAR);
     DWORD wrote_len;
     LPOVERLAPPED lpOverlapped = NULL;
-    user_print("sending i2c: %s\n", wbuffer);
+    user_print("sending: %s\n", wbuffer);
     char temp[wbuffer_len+5];
     strcpy(temp, wbuffer);
     strcat(temp, "\r\n\0");
@@ -132,7 +170,7 @@ int comm_read(char* rbuffer, int rbuffer_len, int* bytes_actually_read) {
         if (true) {
         // if (WaitCommEvent(serialHandle, &dwCommEvent, NULL)) {
             if (ReadFile(serialHandle, chRead, rbuffer_len, &dwRead, NULL)) {                
-                user_print("comm got %s\n", chRead);
+                // user_print("comm got %s\n", chRead);
                 // for (int i = 0; i < dwRead; i++) user_print("%d ",chRead[i]);
                 // user_print(" END\n");
                 if (bytes_actually_read != NULL) *bytes_actually_read = dwRead;
@@ -156,7 +194,7 @@ int comm_read(char* rbuffer, int rbuffer_len, int* bytes_actually_read) {
     }    
     return 0;
 }
-
+#endif
 void car_wait_start () {
     const int buffer_size = 20;
     char buffer[buffer_size];
@@ -174,6 +212,7 @@ int car_turn (float units) {
 }
 
 int car_accelerate (float units) {
+    acceleration=units;
     char buf[30];
     snprintf(buf, 30, "A%2.2f;", units);
     return comm_write(buf, 30);
@@ -181,6 +220,9 @@ int car_accelerate (float units) {
 
 int car_stop () {
     char buf[30];
+    // if (velocity > 0) acceleration -= 0.1;
+    // else if (velocity < 0) acceleration += 0.1;
+    // snprintf(buf, 30, "A%2.2f;", acceleration);
     snprintf(buf, 30, "S;");
     return comm_write(buf, 30);
 }
