@@ -1,12 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 #define WINDOWS
+#define MESSAGE_DELAY 300
+#define INITIAL_ACCELERATION 6.0f
 
 float velocity = 0;
 float acceleration = 0;
 float angle = 0;
+const float max_angle = 10.0f;
+float last_angle = angle;
 
 #if defined(WINDOWS)
 #include <windows.h>
@@ -48,7 +53,7 @@ int car_read_cam (float* ret) ;
 
 int main (int argc, char **argv) {
 
-    user_print("hello world!\n");
+    // user_print("hello world!\n");
 
 #if defined(WINDOWS)
     CreateThread(NULL, 0, f, NULL, 0, NULL);
@@ -61,11 +66,20 @@ int main (int argc, char **argv) {
     float car_sensor_read = 0;
 
     car_accelerate(1.0);
-    user_delay(6000);
+    user_delay(1000.0f*INITIAL_ACCELERATION);
     car_accelerate(0);
+    // car_turn(10);
+    // angle = 10.0f;
+    // user_delay(1000);
 
-    car_turn(10);
-    user_delay(1000);
+    float err=0;
+    float kp=0.8;
+    float ki=0.06;
+    float err_i=0;
+    float kd = 1.3;
+    float err_last=0;
+
+    const float max_err_i = 5;
 
     while (true) {
         // car_turn(10.0f);
@@ -86,22 +100,19 @@ int main (int argc, char **argv) {
         // car_read_cam(&car_sensor_read);
         // user_print("Cameras: %f\n", car_sensor_read);
         // // user_delay(1000);
-        
-        car_read_cam(&car_sensor_read);
-        user_delay(300);
-        car_turn(-car_sensor_read);
-        user_delay(300);
-
-        // if(car_sensor_read > 10 && angle > -20) {
-        //     angle -= 5.0;
-        //     car_turn(-5.0);
-        // }
     
-        // else if (car_sensor_read < -10 && angle < 20) {
-        //     angle += 5.0;
-        //     car_turn(5.0);
-        // }
-        // user_delay(300);
+
+        car_read_rf(&car_sensor_read);
+        user_delay(MESSAGE_DELAY);
+
+        err=-car_sensor_read;
+        err_i+=err;
+        if (err_i > max_err_i) err_i = max_err_i;
+        else if (err_i < -max_err_i) err_i = -max_err_i;
+
+        car_turn(kp*err+ki*err_i+kd*(err-err_last));
+        err_last=err;
+        user_delay(MESSAGE_DELAY);
     }
 
     CloseHandle(serialHandle);
@@ -147,7 +158,7 @@ int comm_write(char* wbuffer, int wbuffer_len) {
     PurgeComm(serialHandle, PURGE_RXCLEAR | PURGE_TXCLEAR);
     DWORD wrote_len;
     LPOVERLAPPED lpOverlapped = NULL;
-    user_print("sending: %s\n", wbuffer);
+    // user_print("sending: %s\n", wbuffer);
     char temp[wbuffer_len+5];
     strcpy(temp, wbuffer);
     strcat(temp, "\r\n\0");
@@ -206,16 +217,19 @@ void car_wait_start () {
 }
 
 int car_turn (float units) {
+    if (units > 10) units = 10;
+    else if (units < -10) units = -10;
+    user_print("turn %f\n",units);
     char buf[30];
     snprintf(buf, 30, "V%2.2f;", units);
-    return comm_write(buf, 30);
+    return comm_write(buf, strlen(buf));
 }
 
 int car_accelerate (float units) {
     acceleration=units;
     char buf[30];
     snprintf(buf, 30, "A%2.2f;", units);
-    return comm_write(buf, 30);
+    return comm_write(buf, strlen(buf));
 }
 
 int car_stop () {
@@ -224,7 +238,7 @@ int car_stop () {
     // else if (velocity < 0) acceleration += 0.1;
     // snprintf(buf, 30, "A%2.2f;", acceleration);
     snprintf(buf, 30, "S;");
-    return comm_write(buf, 30);
+    return comm_write(buf, strlen(buf));
 }
 
 int car_read_laser (float* ret) {
@@ -241,7 +255,7 @@ int car_read_laser (float* ret) {
 int car_read_ultrassound (float* ret) {
     char buf[30];
     snprintf(buf, 30, "Pu;");
-    int res = comm_write(buf, 30);
+    int res = comm_write(buf, strlen(buf));
     if (res != 0) return res;
     // user_delay(1);
     res = comm_read(buf, 30, NULL);
@@ -251,7 +265,7 @@ int car_read_ultrassound (float* ret) {
 int car_read_rf (float* ret) {
     char buf[30];
     snprintf(buf, 30, "Prf;");
-    int res = comm_write(buf, 30);
+    int res = comm_write(buf, strlen(buf));
     if (res != 0) return res;
     user_delay(10);
     res = comm_read(buf, 30, NULL);
@@ -261,7 +275,7 @@ int car_read_rf (float* ret) {
 int car_read_cam (float* ret) {
     char buf[30];
     snprintf(buf, 30, "Pbcam;");
-    int res = comm_write(buf, 30);
+    int res = comm_write(buf, strlen(buf));
     if (res != 0) return res;
     user_delay(10);
     res = comm_read(buf, 30, NULL);

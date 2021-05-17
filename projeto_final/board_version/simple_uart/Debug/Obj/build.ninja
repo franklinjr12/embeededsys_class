@@ -1,0 +1,29 @@
+#Generating source browse information for project simple_uart
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build simple_uart.pbi : index simple_uart.xcl
+build system_TM4C1294_TW.pbi : index system_TM4C1294_TW.xcl
+build uartstdio.pbi : index uartstdio.xcl
+build simple_uart.pbd : link simple_uart.pbi system_TM4C1294_TW.pbi uartstdio.pbi
+build simple_uart.pbw : browsedata simple_uart.pbd
+
+
