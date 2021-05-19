@@ -1321,13 +1321,69 @@
     "scope": null
   },
   {
+    "ID": "c:system_TM4C1294.h@405@macro@user_print",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "user_print",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "user_print",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294.h@434@macro@user_delay",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "user_delay",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "user_delay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294.h@633@macro@MESSAGE_DELAY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MESSAGE_DELAY",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "MESSAGE_DELAY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294.h@660@macro@INITIAL_ACCELERATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INITIAL_ACCELERATION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "INITIAL_ACCELERATION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@comm_buffer_pos",
     "What": "Variable",
     "defdec": "Def",
     "display": "comm_buffer_pos",
     "location": {
       "column": "5",
-      "line": "18",
+      "line": "27",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_buffer_pos",
@@ -1341,66 +1397,10 @@
     "display": "comm_buffer",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "28",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_buffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_TM4C1294.h@502@macro@user_print",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "user_print",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
-    },
-    "name": "user_print",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_TM4C1294.h@531@macro@user_delay",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "user_delay",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
-    },
-    "name": "user_delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_TM4C1294.h@660@macro@MESSAGE_DELAY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MESSAGE_DELAY",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
-    },
-    "name": "MESSAGE_DELAY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_TM4C1294.h@688@macro@INITIAL_ACCELERATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "INITIAL_ACCELERATION",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
-    },
-    "name": "INITIAL_ACCELERATION",
     "origin": "user_include",
     "scope": null
   },
@@ -1411,7 +1411,7 @@
     "display": "void UARTStdioIntHandler(void)",
     "location": {
       "column": "13",
-      "line": "28",
+      "line": "30",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "UARTStdioIntHandler",
@@ -1421,11 +1421,11 @@
   {
     "ID": "c:@F@UARTInit",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void UARTInit(void)",
     "location": {
       "column": "6",
-      "line": "30",
+      "line": "32",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "UARTInit",
@@ -1439,7 +1439,7 @@
     "display": "void UART0_Handler(void)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "34",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "UART0_Handler",
@@ -1453,7 +1453,7 @@
     "display": "void SysTick_Handler(void)",
     "location": {
       "column": "6",
-      "line": "52",
+      "line": "38",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "SysTick_Handler",
@@ -1467,7 +1467,7 @@
     "display": "int comm_init(void)",
     "location": {
       "column": "5",
-      "line": "55",
+      "line": "41",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_init",
@@ -1481,7 +1481,7 @@
     "display": "int comm_write(char *, int)",
     "location": {
       "column": "5",
-      "line": "56",
+      "line": "42",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_write",
@@ -1495,7 +1495,7 @@
     "display": "int comm_read(char *, int, int *)",
     "location": {
       "column": "5",
-      "line": "57",
+      "line": "43",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_read",
@@ -1509,7 +1509,7 @@
     "display": "void car_wait_start(void)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "45",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_wait_start",
@@ -1523,7 +1523,7 @@
     "display": "int car_stop(void)",
     "location": {
       "column": "5",
-      "line": "60",
+      "line": "46",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_stop",
@@ -1537,7 +1537,7 @@
     "display": "int car_turn(float)",
     "location": {
       "column": "5",
-      "line": "61",
+      "line": "47",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_turn",
@@ -1551,7 +1551,7 @@
     "display": "int car_accelerate(float)",
     "location": {
       "column": "5",
-      "line": "62",
+      "line": "48",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_accelerate",
@@ -1565,7 +1565,7 @@
     "display": "int car_read_laser(float *)",
     "location": {
       "column": "5",
-      "line": "63",
+      "line": "49",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_laser",
@@ -1579,7 +1579,7 @@
     "display": "int car_read_ultrassound(float *)",
     "location": {
       "column": "5",
-      "line": "64",
+      "line": "50",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_ultrassound",
@@ -1593,7 +1593,7 @@
     "display": "int car_read_rf(float *)",
     "location": {
       "column": "5",
-      "line": "65",
+      "line": "51",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_rf",
@@ -1607,7 +1607,7 @@
     "display": "int car_read_cam(float *)",
     "location": {
       "column": "5",
-      "line": "66",
+      "line": "52",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_cam",
@@ -1621,7 +1621,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "68",
+      "line": "54",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "main",
@@ -1629,13 +1629,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2090@F@main@f",
+    "ID": "c:system_TM4C1294.h@1690@F@main@f",
     "What": "Variable",
     "defdec": "Def",
     "display": "f",
     "location": {
       "column": "11",
-      "line": "82",
+      "line": "70",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "f",
@@ -1643,13 +1643,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2443@F@main@err",
+    "ID": "c:system_TM4C1294.h@2060@F@main@err",
     "What": "Variable",
     "defdec": "Def",
     "display": "err",
     "location": {
-      "column": "11",
-      "line": "99",
+      "column": "9",
+      "line": "86",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "err",
@@ -1657,13 +1657,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2461@F@main@kp",
+    "ID": "c:system_TM4C1294.h@2076@F@main@kp",
     "What": "Variable",
     "defdec": "Def",
     "display": "kp",
     "location": {
-      "column": "11",
-      "line": "100",
+      "column": "9",
+      "line": "87",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "kp",
@@ -1671,13 +1671,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2480@F@main@ki",
+    "ID": "c:system_TM4C1294.h@2093@F@main@ki",
     "What": "Variable",
     "defdec": "Def",
     "display": "ki",
     "location": {
-      "column": "11",
-      "line": "101",
+      "column": "9",
+      "line": "88",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "ki",
@@ -1685,13 +1685,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2500@F@main@err_i",
+    "ID": "c:system_TM4C1294.h@2111@F@main@err_i",
     "What": "Variable",
     "defdec": "Def",
     "display": "err_i",
     "location": {
-      "column": "11",
-      "line": "102",
+      "column": "9",
+      "line": "89",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "err_i",
@@ -1699,13 +1699,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2520@F@main@max_err_i",
+    "ID": "c:system_TM4C1294.h@2129@F@main@max_err_i",
     "What": "Variable",
     "defdec": "Def",
     "display": "max_err_i",
     "location": {
-      "column": "17",
-      "line": "103",
+      "column": "15",
+      "line": "90",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "max_err_i",
@@ -1713,13 +1713,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2552@F@main@kd",
+    "ID": "c:system_TM4C1294.h@2159@F@main@kd",
     "What": "Variable",
     "defdec": "Def",
     "display": "kd",
     "location": {
-      "column": "11",
-      "line": "104",
+      "column": "9",
+      "line": "91",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "kd",
@@ -1727,13 +1727,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2573@F@main@err_last",
+    "ID": "c:system_TM4C1294.h@2178@F@main@err_last",
     "What": "Variable",
     "defdec": "Def",
     "display": "err_last",
     "location": {
-      "column": "11",
-      "line": "105",
+      "column": "9",
+      "line": "92",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "err_last",
@@ -1741,16 +1741,30 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@2598@F@main@car_sensor_read",
+    "ID": "c:system_TM4C1294.h@2203@F@main@car_sensor_read",
     "What": "Variable",
     "defdec": "Def",
     "display": "car_sensor_read",
     "location": {
-      "column": "11",
-      "line": "107",
+      "column": "9",
+      "line": "94",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_sensor_read",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UARTInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UARTInit(void)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "UARTInit",
     "origin": "user_include",
     "scope": null
   },
@@ -1761,7 +1775,7 @@
     "display": "int comm_init(void)",
     "location": {
       "column": "5",
-      "line": "126",
+      "line": "137",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_init",
@@ -1775,7 +1789,7 @@
     "display": "int comm_write(char *, int)",
     "location": {
       "column": "5",
-      "line": "133",
+      "line": "143",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_write",
@@ -1789,7 +1803,7 @@
     "display": "int comm_read(char *, int, int *)",
     "location": {
       "column": "5",
-      "line": "138",
+      "line": "148",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "comm_read",
@@ -1797,13 +1811,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@3313@F@comm_read@aval",
+    "ID": "c:system_TM4C1294.h@3675@F@comm_read@aval",
     "What": "Variable",
     "defdec": "Def",
     "display": "aval",
     "location": {
       "column": "7",
-      "line": "140",
+      "line": "152",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "aval",
@@ -1811,13 +1825,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@3427@F@comm_read@i",
+    "ID": "c:system_TM4C1294.h@3795@F@comm_read@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
-      "column": "7",
-      "line": "145",
+      "column": "12",
+      "line": "157",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "i",
@@ -1825,16 +1839,30 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@3441@F@comm_read@c",
+    "ID": "c:system_TM4C1294.h@3949@F@comm_read@temp",
     "What": "Variable",
     "defdec": "Def",
-    "display": "c",
+    "display": "temp",
     "location": {
-      "column": "8",
-      "line": "146",
+      "column": "7",
+      "line": "163",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
-    "name": "c",
+    "name": "temp",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294.h@4020@F@comm_read@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "165",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
+    },
+    "name": "i",
     "origin": "user_include",
     "scope": null
   },
@@ -1845,7 +1873,7 @@
     "display": "void car_wait_start(void)",
     "location": {
       "column": "6",
-      "line": "168",
+      "line": "173",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_wait_start",
@@ -1853,13 +1881,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4036@F@car_wait_start@buffer_size",
+    "ID": "c:system_TM4C1294.h@4189@F@car_wait_start@buffer_size",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer_size",
     "location": {
-      "column": "15",
-      "line": "169",
+      "column": "13",
+      "line": "174",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buffer_size",
@@ -1867,13 +1895,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4069@F@car_wait_start@buffer",
+    "ID": "c:system_TM4C1294.h@4220@F@car_wait_start@buffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer",
     "location": {
-      "column": "10",
-      "line": "170",
+      "column": "8",
+      "line": "175",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buffer",
@@ -1887,7 +1915,7 @@
     "display": "int car_turn(float)",
     "location": {
       "column": "5",
-      "line": "178",
+      "line": "183",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_turn",
@@ -1895,13 +1923,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4403@F@car_turn@buf",
+    "ID": "c:system_TM4C1294.h@4498@F@car_turn@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
-      "line": "182",
+      "column": "8",
+      "line": "186",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buf",
@@ -1915,7 +1943,7 @@
     "display": "int car_accelerate(float)",
     "location": {
       "column": "5",
-      "line": "187",
+      "line": "191",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_accelerate",
@@ -1923,13 +1951,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4547@F@car_accelerate@buf",
+    "ID": "c:system_TM4C1294.h@4636@F@car_accelerate@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
-      "line": "188",
+      "column": "8",
+      "line": "192",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buf",
@@ -1943,7 +1971,7 @@
     "display": "int car_stop(void)",
     "location": {
       "column": "5",
-      "line": "193",
+      "line": "197",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_stop",
@@ -1951,13 +1979,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4674@F@car_stop@buf",
+    "ID": "c:system_TM4C1294.h@4757@F@car_stop@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
-      "line": "194",
+      "column": "8",
+      "line": "198",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buf",
@@ -1971,7 +1999,7 @@
     "display": "int car_read_laser(float *)",
     "location": {
       "column": "5",
-      "line": "202",
+      "line": "203",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_laser",
@@ -1979,13 +2007,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@4956@F@car_read_laser@buf",
+    "ID": "c:system_TM4C1294.h@4882@F@car_read_laser@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
-      "line": "203",
+      "column": "8",
+      "line": "204",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buf",
@@ -1993,12 +2021,12 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5034@F@car_read_laser@res",
+    "ID": "c:system_TM4C1294.h@4922@F@car_read_laser@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
-      "column": "9",
+      "column": "7",
       "line": "206",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
@@ -2021,12 +2049,12 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5263@F@car_read_ultrassound@buf",
+    "ID": "c:system_TM4C1294.h@5136@F@car_read_ultrassound@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
+      "column": "8",
       "line": "214",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
@@ -2035,12 +2063,12 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5313@F@car_read_ultrassound@res",
+    "ID": "c:system_TM4C1294.h@5182@F@car_read_ultrassound@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
-      "column": "9",
+      "column": "7",
       "line": "216",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
@@ -2063,12 +2091,12 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5532@F@car_read_rf@buf",
+    "ID": "c:system_TM4C1294.h@5386@F@car_read_rf@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
+      "column": "8",
       "line": "224",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
@@ -2077,13 +2105,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5583@F@car_read_rf@res",
+    "ID": "c:system_TM4C1294.h@5456@F@car_read_rf@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
-      "column": "9",
-      "line": "226",
+      "column": "7",
+      "line": "227",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "res",
@@ -2097,7 +2125,7 @@
     "display": "int car_read_cam(float *)",
     "location": {
       "column": "5",
-      "line": "233",
+      "line": "234",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "car_read_cam",
@@ -2105,13 +2133,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5801@F@car_read_cam@buf",
+    "ID": "c:system_TM4C1294.h@5666@F@car_read_cam@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
-      "column": "10",
-      "line": "234",
+      "column": "8",
+      "line": "235",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "buf",
@@ -2119,409 +2147,17 @@
     "scope": null
   },
   {
-    "ID": "c:system_TM4C1294.h@5854@F@car_read_cam@res",
+    "ID": "c:system_TM4C1294.h@5715@F@car_read_cam@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
-      "column": "9",
-      "line": "236",
+      "column": "7",
+      "line": "237",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_IAR8-master\\Projects\\simple_uart\\src\\system_TM4C1294.h"
     },
     "name": "res",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:string.h@100@macro@_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STRING",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "_STRING",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int memcmp(const void *, const void *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "38",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memcpy(void *restrict, const void *restrict, size_t)",
-    "location": {
-      "column": "45",
-      "line": "40",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memmove",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memmove(void *, const void *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "43",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memmove",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memset(void *, int, size_t)",
-    "location": {
-      "column": "45",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memset",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcat(char *restrict, const char *restrict)",
-    "location": {
-      "column": "45",
-      "line": "46",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcat",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcmp(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "48",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcoll",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcoll(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "49",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcoll",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcpy(char *restrict, const char *restrict)",
-    "location": {
-      "column": "45",
-      "line": "50",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcspn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strcspn(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcspn",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strerror",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strerror(int)",
-    "location": {
-      "column": "45",
-      "line": "53",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strerror",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strlen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strlen(const char *)",
-    "location": {
-      "column": "45",
-      "line": "54",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strlen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strncat(char *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "45",
-      "line": "55",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strncat",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strncmp(const char *, const char *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "58",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strncmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strncpy(char *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "45",
-      "line": "60",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strncpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strspn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strspn(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "63",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strspn",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtok",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strtok(char *restrict, const char *restrict)",
-    "location": {
-      "column": "45",
-      "line": "64",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strtok",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strxfrm",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strxfrm(char *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "45",
-      "line": "66",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strxfrm",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strdup",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strdup(const char *)",
-    "location": {
-      "column": "45",
-      "line": "70",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strdup",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcasecmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcasecmp(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "71",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcasecmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncasecmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strncasecmp(const char *, const char *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "73",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strncasecmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtok_r",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strtok_r(char *, const char *, char **)",
-    "location": {
-      "column": "45",
-      "line": "75",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strtok_r",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strnlen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strnlen(const char *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "77",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strnlen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memchr(const void *, int, size_t)",
-    "location": {
-      "column": "37",
-      "line": "171",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strchr(const char *, int)",
-    "location": {
-      "column": "37",
-      "line": "172",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strpbrk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strpbrk(const char *, const char *)",
-    "location": {
-      "column": "37",
-      "line": "173",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strpbrk",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strrchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strrchr(const char *, int)",
-    "location": {
-      "column": "37",
-      "line": "174",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strrchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strstr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strstr(const char *, const char *)",
-    "location": {
-      "column": "37",
-      "line": "175",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strstr",
-    "origin": "system_include",
     "scope": null
   },
   {
@@ -5569,6 +5205,20 @@
     "scope": null
   },
   {
+    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "location": {
+      "column": "11",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ycheck.h"
+    },
+    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Product_stdlib.h@251@macro@_DLIB_PRODUCTS_STDLIB_H_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -5733,6 +5383,398 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Product_stdlib.h"
     },
     "name": "lldiv",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:string.h@100@macro@_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STRING",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "_STRING",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int memcmp(const void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memcpy(void *restrict, const void *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memmove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memmove(void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memmove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memset(void *, int, size_t)",
+    "location": {
+      "column": "45",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memset",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcat(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcoll",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcoll(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcoll",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcpy(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strcspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strerror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strerror(int)",
+    "location": {
+      "column": "45",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strerror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strlen(const char *)",
+    "location": {
+      "column": "45",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncat(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "58",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncpy(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "63",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strxfrm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strxfrm(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "66",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strxfrm",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strdup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strdup(const char *)",
+    "location": {
+      "column": "45",
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strdup",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcasecmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncasecmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "73",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok_r",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok_r(char *, const char *, char **)",
+    "location": {
+      "column": "45",
+      "line": "75",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok_r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strnlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strnlen(const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "77",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strnlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memchr(const void *, int, size_t)",
+    "location": {
+      "column": "37",
+      "line": "171",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "172",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strpbrk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strpbrk(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "173",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strpbrk",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strrchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strrchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "174",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strrchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strstr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strstr(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "175",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strstr",
     "origin": "system_include",
     "scope": null
   },
@@ -6391,20 +6433,6 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Product_string.h"
     },
     "name": "memset",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "location": {
-      "column": "11",
-      "line": "42",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ycheck.h"
-    },
-    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "origin": "system_include",
     "scope": null
   },
