@@ -53,11 +53,11 @@ bool should_write, should_read, should_control;
 
 //init the PID variables
 float err=0;
-float kp=0.8;
-float ki=0.06;
+float kp=0.6;
+float ki=0.03;
 float err_i=0;
 const float max_err_i = 5;
-float kd = 1.3;
+float kd = 2.3;
 float err_last=0;
 
 float car_sensor_read = 0;
@@ -129,10 +129,6 @@ void thread_receiver_task(void *arg){
       
       err = -(float)atof((char*)&read_buffer[3]);
       should_control = true;
-//      snprintf((char*)read_buffer, sizeof(read_buffer), "f=%d\n", (int)(f*100.0f));
-//      //UARTwrite((char*)read_buffer, strlen((char*)read_buffer));
-//      for (int i = 0; i < strlen((char*)write_buffer); i++) UARTCharPut(UART0_BASE, write_buffer[i]);
-//      while(UARTBusy(UART0_BASE)) osDelay(1);
       
       osMutexRelease(uart_mutex_id);
     }        
@@ -147,7 +143,7 @@ void thread_controller_task(void *arg){
   car_accelerate(0.0);
   user_delay(300);
   car_turn(10.0);
-  user_delay(1000);  
+  user_delay(500);  
   
   should_control = true;
   while(1){   
@@ -160,7 +156,7 @@ void thread_controller_task(void *arg){
     user_delay(MESSAGE_DELAY);
     
     //update err and integrator err and fix integrator saturarion
-    //err=-car_sensor_read;
+    
     err_i+=err;
     if (err_i > max_err_i) err_i = max_err_i;
     else if (err_i < -max_err_i) err_i = -max_err_i;
@@ -187,12 +183,6 @@ void main(void){
   should_read = false;  
   should_control = false;  
   
-//  thread_sender_id = osThreadNew(thread_sender_task, NULL, NULL);
-//  thread_receiver_id = osThreadNew(thread_receiver_task, NULL, NULL);
-//  thread_controller_id = osThreadNew(thread_controller_task, NULL, NULL);
-  
-
-  
   thread_sender_id = osThreadNew(thread_sender_task, NULL, &thread_at);
   if (thread_sender_id == NULL) while(1);
   thread_receiver_id = osThreadNew(thread_receiver_task, NULL, &thread_at);
@@ -215,24 +205,7 @@ void uart_init() {
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
   //  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
     
-  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
-//  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_UART0)){}  
-  //UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,(UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |UART_CONFIG_PAR_NONE));  
-  
-//  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
-//  GPIOPinConfigure(GPIO_PA0_U0RX);
-//  GPIOPinConfigure(GPIO_PA1_U0TX);  
-//  GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
-//  UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,
-//                      (UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |
-//                       UART_CONFIG_PAR_NONE));
-//  UARTEnable(UART0_BASE);
-//  UARTFIFOEnable(UART0_BASE);
- 
-  
-//  UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,(UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |UART_CONFIG_PAR_NONE));
-//  UARTEnable(UART0_BASE);
-  
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0); 
   
   // Configure GPIO Pins for UART mode.
   GPIOPinConfigure(GPIO_PA0_U0RX);
@@ -259,29 +232,7 @@ int comm_write(char * wbuffer, int wbuffer_len) {
 }
 
 int comm_read (char* rbuffer, int wbuffer_len, int* bytes_actually_read) {
-//  strcpy(rbuffer, read_buffer);
   should_read = true;
-//  memset(comm_buffer, 0, sizeof(comm_buffer));
-//  memset(rbuffer, 0, wbuffer_len);
-//  
-//  int aval = UARTRxBytesAvail();
-//  while (aval < 1) {
-//    user_delay(100);
-//    aval = UARTRxBytesAvail();
-//  }
-//  for (int i=0; i < aval; i++) {    
-//    comm_buffer[comm_buffer_pos++]=UARTgetc();    
-//  }
-//  comm_buffer[comm_buffer_pos++]='\0';
-//  comm_buffer_pos=0;
-//
-//  int temp = strlen(comm_buffer);
-//  if ( temp <= wbuffer_len)
-//    for (int i = 0; i < temp; i++) rbuffer[i] = comm_buffer[i]; 
-//  else return -1;
-//  
-//  user_print("comm got %s\n", rbuffer);
-
   return 0;
 }
 
