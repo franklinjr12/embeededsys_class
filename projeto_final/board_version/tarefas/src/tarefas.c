@@ -36,27 +36,31 @@ char comm_buffer[128];
 char write_buffer[BUFFER_SIZE];
 char read_buffer[BUFFER_SIZE];
 
+const osThreadAttr_t thread_at = {
+  .stack_size = 1024*8
+};
+
 osThreadId_t thread_sender_id;
 osThreadId_t thread_receiver_id;
 osThreadId_t thread_controller_id;
 
 osMutexId_t uart_mutex_id; // Mutex ID
 
-uint8_t buffer[BUFFER_SIZE];
+char buffer[BUFFER_SIZE];
 float f;
 
-bool should_write, should_read;
+bool should_write, should_read, should_control;
 
-  //init the PID variables
-  float err=0;
-  float kp=0.8;
-  float ki=0.06;
-  float err_i=0;
-  const float max_err_i = 5;
-  float kd = 1.3;
-  float err_last=0;
-  
-  float car_sensor_read = 0;
+//init the PID variables
+float err=0;
+float kp=0.8;
+float ki=0.06;
+float err_i=0;
+const float max_err_i = 5;
+float kd = 1.3;
+float err_last=0;
+
+float car_sensor_read = 0;
 
 void uart_init();
 
@@ -82,7 +86,10 @@ void thread_sender_task(void *arg){
     if (osMutexAcquire(uart_mutex_id, 10) == osOK) {
       should_write = false;  
       UARTwrite((char*)write_buffer, strlen((char*)write_buffer));
-
+//      int len = strlen((char*)write_buffer);
+//      for (int i = 0; i < len; i++) UARTCharPut(UART0_BASE, '!');
+      while(UARTBusy(UART0_BASE)) osDelay(1);
+      memset(write_buffer, 0, sizeof(write_buffer));
       osMutexRelease(uart_mutex_id);          
     }    
           
@@ -95,8 +102,24 @@ void thread_receiver_task(void *arg){
     
     if (osMutexAcquire(uart_mutex_id, 10) == osOK) {
       should_read = false;
-      while (UARTBusy(UART0_BASE)) osDelay(100);
-      while (!UARTCharsAvail(UART0_BASE)) osDelay(100);
+      uint8_t timeout = 0;
+      const uint8_t TIMEOUT = 300;
+      while (UARTBusy(UART0_BASE)) {
+        osDelay(1);
+        timeout++;
+        if (timeout > TIMEOUT) {
+          osMutexRelease(uart_mutex_id);
+          break;
+        }
+      }
+      while (!UARTCharsAvail(UART0_BASE)) {
+        osDelay(1);
+        timeout++;
+        if (timeout > TIMEOUT) {
+          osMutexRelease(uart_mutex_id);
+          break;
+        }        
+      }
       
       memset(read_buffer, 0, sizeof(read_buffer));
       int i = 0;
@@ -104,9 +127,12 @@ void thread_receiver_task(void *arg){
         read_buffer[i++] = UARTCharGetNonBlocking(UART0_BASE);
       }
       
-      err = (float)atof((char*)read_buffer);
-      snprintf((char*)read_buffer, sizeof(read_buffer), "f=%d\n", (int)(f*100.0f));
-      UARTwrite((char*)read_buffer, strlen((char*)read_buffer));
+      err = -(float)atof((char*)&read_buffer[3]);
+      should_control = true;
+//      snprintf((char*)read_buffer, sizeof(read_buffer), "f=%d\n", (int)(f*100.0f));
+//      //UARTwrite((char*)read_buffer, strlen((char*)read_buffer));
+//      for (int i = 0; i < strlen((char*)write_buffer); i++) UARTCharPut(UART0_BASE, write_buffer[i]);
+//      while(UARTBusy(UART0_BASE)) osDelay(1);
       
       osMutexRelease(uart_mutex_id);
     }        
@@ -123,14 +149,18 @@ void thread_controller_task(void *arg){
   car_turn(10.0);
   user_delay(1000);  
   
+  should_control = true;
   while(1){   
 
+    while (!should_control) osDelay(1);
+    should_control = false;
+    
     //read sensor
     car_read_rf(&car_sensor_read);
     user_delay(MESSAGE_DELAY);
     
     //update err and integrator err and fix integrator saturarion
-    err=-car_sensor_read;
+    //err=-car_sensor_read;
     err_i+=err;
     if (err_i > max_err_i) err_i = max_err_i;
     else if (err_i < -max_err_i) err_i = -max_err_i;
@@ -155,18 +185,20 @@ void main(void){
   
   should_write = false;
   should_read = false;  
+  should_control = false;  
   
 //  thread_sender_id = osThreadNew(thread_sender_task, NULL, NULL);
 //  thread_receiver_id = osThreadNew(thread_receiver_task, NULL, NULL);
 //  thread_controller_id = osThreadNew(thread_controller_task, NULL, NULL);
   
-  const osThreadAttr_t thread_at = {
-    .stack_size = 1024*8
-  };
+
   
   thread_sender_id = osThreadNew(thread_sender_task, NULL, &thread_at);
+  if (thread_sender_id == NULL) while(1);
   thread_receiver_id = osThreadNew(thread_receiver_task, NULL, &thread_at);
+  if (thread_receiver_id == NULL) while(1);
   thread_controller_id = osThreadNew(thread_controller_task, NULL, &thread_at);  
+  if (thread_controller_id == NULL) while(1);
   
   uart_mutex_id = osMutexNew(NULL);
   
@@ -179,24 +211,36 @@ void main(void){
 
 
 void uart_init() {
-  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
-  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_UART0)){}  
-  //UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,(UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |UART_CONFIG_PAR_NONE));  
-  
-  // Initialize the UART for console I/O.
-  UARTStdioConfig(0, 9600, SystemCoreClock);
-  
   // Enable the GPIO Peripheral used by the UART.
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
-  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
+  //  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
+    
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
+//  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_UART0)){}  
+  //UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,(UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |UART_CONFIG_PAR_NONE));  
+  
+//  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
+//  GPIOPinConfigure(GPIO_PA0_U0RX);
+//  GPIOPinConfigure(GPIO_PA1_U0TX);  
+//  GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
+//  UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,
+//                      (UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |
+//                       UART_CONFIG_PAR_NONE));
+//  UARTEnable(UART0_BASE);
+//  UARTFIFOEnable(UART0_BASE);
+ 
+  
+//  UARTConfigSetExpClk(UART0_BASE, SysCtlClockGet(), 9600,(UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |UART_CONFIG_PAR_NONE));
+//  UARTEnable(UART0_BASE);
+  
   
   // Configure GPIO Pins for UART mode.
   GPIOPinConfigure(GPIO_PA0_U0RX);
   GPIOPinConfigure(GPIO_PA1_U0TX);
   GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
   
-  //UARTCharGet(UART0_BASE);
-  //UARTCharPut(UART0_BASE, �c�));
+  // Initialize the UART for console I/O.
+  UARTStdioConfig(0, 9600, SystemCoreClock);
 }
 
 int comm_init() {
@@ -215,7 +259,7 @@ int comm_write(char * wbuffer, int wbuffer_len) {
 }
 
 int comm_read (char* rbuffer, int wbuffer_len, int* bytes_actually_read) {
-  strcpy(read_buffer, rbuffer);
+//  strcpy(rbuffer, read_buffer);
   should_read = true;
 //  memset(comm_buffer, 0, sizeof(comm_buffer));
 //  memset(rbuffer, 0, wbuffer_len);

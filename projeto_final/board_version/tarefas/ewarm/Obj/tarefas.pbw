@@ -9639,370 +9639,6 @@
     "scope": null
   },
   {
-    "ID": "c:RTX_Config.h@os_isr_queue",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "os_isr_queue",
-    "location": {
-      "column": "14",
-      "line": "55",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "os_isr_queue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxThreadStackCheck",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxThreadStackCheck(void)",
-    "location": {
-      "column": "13",
-      "line": "115",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxThreadStackCheck",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxThreadStackCheck",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxThreadStackCheck(void)",
-    "location": {
-      "column": "13",
-      "line": "115",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxThreadStackCheck",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxThreadStackCheck",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void osRtxThreadStackCheck(void)",
-    "location": {
-      "column": "13",
-      "line": "116",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxThreadStackCheck",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RTX_Config.h@os_idle_thread_cb",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "os_idle_thread_cb",
-    "location": {
-      "column": "22",
-      "line": "121",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "os_idle_thread_cb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RTX_Config.h@os_idle_thread_stack",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "os_idle_thread_stack",
-    "location": {
-      "column": "17",
-      "line": "125",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "os_idle_thread_stack",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RTX_Config.h@os_idle_thread_attr",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "os_idle_thread_attr",
-    "location": {
-      "column": "29",
-      "line": "129",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "os_idle_thread_attr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxTimerThread",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxTimerThread(void *)",
-    "location": {
-      "column": "13",
-      "line": "227",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxTimerThread",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxTimerThread",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxTimerThread(void *)",
-    "location": {
-      "column": "13",
-      "line": "227",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxTimerThread",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxTimerThread",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void osRtxTimerThread(void *)",
-    "location": {
-      "column": "13",
-      "line": "228",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxTimerThread",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@osRtxConfig",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "osRtxConfig",
-    "location": {
-      "column": "21",
-      "line": "409",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@irqRtxLib",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "irqRtxLib",
-    "location": {
-      "column": "23",
-      "line": "517",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "irqRtxLib",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@irqRtxLibRef",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "irqRtxLibRef",
-    "location": {
-      "column": "23",
-      "line": "518",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "irqRtxLibRef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@irqRtxLibRef",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "irqRtxLibRef",
-    "location": {
-      "column": "23",
-      "line": "519",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "irqRtxLibRef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@irqRtxLibRef",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "irqRtxLibRef",
-    "location": {
-      "column": "23",
-      "line": "519",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "irqRtxLibRef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@osRtxUserSVC",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "osRtxUserSVC",
-    "location": {
-      "column": "21",
-      "line": "525",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxUserSVC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@osRtxUserSVC",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "osRtxUserSVC",
-    "location": {
-      "column": "21",
-      "line": "526",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxUserSVC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@osRtxUserSVC",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "osRtxUserSVC",
-    "location": {
-      "column": "21",
-      "line": "526",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxUserSVC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxKernelPreInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxKernelPreInit(void)",
-    "location": {
-      "column": "6",
-      "line": "669",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxKernelPreInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxKernelPreInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void osRtxKernelPreInit(void)",
-    "location": {
-      "column": "6",
-      "line": "669",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxKernelPreInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@osRtxKernelPreInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void osRtxKernelPreInit(void)",
-    "location": {
-      "column": "6",
-      "line": "670",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
-    },
-    "name": "osRtxKernelPreInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:TM4C1294NCPDT.h@741@macro@__CONFIG_CLOCK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__CONFIG_CLOCK",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
-    },
-    "name": "__CONFIG_CLOCK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:TM4C1294NCPDT.h@901@macro@__SYSTEM_CLOCK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SYSTEM_CLOCK",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
-    },
-    "name": "__SYSTEM_CLOCK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@SystemCoreClock",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "SystemCoreClock",
-    "location": {
-      "column": "20",
-      "line": "33",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
-    },
-    "name": "SystemCoreClock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SystemCoreClockUpdate",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SystemCoreClockUpdate(void)",
-    "location": {
-      "column": "6",
-      "line": "39",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
-    },
-    "name": "SystemCoreClockUpdate",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SystemInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SystemInit(void)",
-    "location": {
-      "column": "6",
-      "line": "47",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
-    },
-    "name": "SystemInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:system_tm4c1294.h@115@macro@PART_TM4C1294NCPDT",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10157,13 +9793,27 @@
     "scope": null
   },
   {
+    "ID": "c:@thread_at",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "thread_at",
+    "location": {
+      "column": "22",
+      "line": "39",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "thread_at",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@thread_sender_id",
     "What": "Variable",
     "defdec": "Dec",
     "display": "thread_sender_id",
     "location": {
       "column": "14",
-      "line": "39",
+      "line": "43",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_sender_id",
@@ -10177,7 +9827,7 @@
     "display": "thread_receiver_id",
     "location": {
       "column": "14",
-      "line": "40",
+      "line": "44",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_receiver_id",
@@ -10191,7 +9841,7 @@
     "display": "thread_controller_id",
     "location": {
       "column": "14",
-      "line": "41",
+      "line": "45",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_controller_id",
@@ -10205,7 +9855,7 @@
     "display": "uart_mutex_id",
     "location": {
       "column": "13",
-      "line": "43",
+      "line": "47",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "uart_mutex_id",
@@ -10218,25 +9868,11 @@
     "defdec": "Dec",
     "display": "buffer",
     "location": {
-      "column": "9",
-      "line": "45",
+      "column": "6",
+      "line": "49",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "buffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@c",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "c",
-    "location": {
-      "column": "6",
-      "line": "46",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "c",
     "origin": "user_include",
     "scope": null
   },
@@ -10247,24 +9883,10 @@
     "display": "f",
     "location": {
       "column": "7",
-      "line": "47",
+      "line": "50",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "f",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@flag",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "flag",
-    "location": {
-      "column": "6",
-      "line": "48",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "flag",
     "origin": "user_include",
     "scope": null
   },
@@ -10275,7 +9897,7 @@
     "display": "should_write",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "52",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "should_write",
@@ -10289,10 +9911,24 @@
     "display": "should_read",
     "location": {
       "column": "20",
-      "line": "50",
+      "line": "52",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "should_read",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@should_control",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "should_control",
+    "location": {
+      "column": "33",
+      "line": "52",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "should_control",
     "origin": "user_include",
     "scope": null
   },
@@ -10302,8 +9938,8 @@
     "defdec": "Def",
     "display": "err",
     "location": {
-      "column": "9",
-      "line": "53",
+      "column": "7",
+      "line": "55",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err",
@@ -10316,8 +9952,8 @@
     "defdec": "Dec",
     "display": "err",
     "location": {
-      "column": "9",
-      "line": "53",
+      "column": "7",
+      "line": "55",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err",
@@ -10330,8 +9966,8 @@
     "defdec": "Def",
     "display": "kp",
     "location": {
-      "column": "9",
-      "line": "54",
+      "column": "7",
+      "line": "56",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "kp",
@@ -10344,8 +9980,8 @@
     "defdec": "Dec",
     "display": "kp",
     "location": {
-      "column": "9",
-      "line": "54",
+      "column": "7",
+      "line": "56",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "kp",
@@ -10358,8 +9994,8 @@
     "defdec": "Def",
     "display": "ki",
     "location": {
-      "column": "9",
-      "line": "55",
+      "column": "7",
+      "line": "57",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "ki",
@@ -10372,8 +10008,8 @@
     "defdec": "Dec",
     "display": "ki",
     "location": {
-      "column": "9",
-      "line": "55",
+      "column": "7",
+      "line": "57",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "ki",
@@ -10386,8 +10022,8 @@
     "defdec": "Def",
     "display": "err_i",
     "location": {
-      "column": "9",
-      "line": "56",
+      "column": "7",
+      "line": "58",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err_i",
@@ -10400,8 +10036,8 @@
     "defdec": "Dec",
     "display": "err_i",
     "location": {
-      "column": "9",
-      "line": "56",
+      "column": "7",
+      "line": "58",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err_i",
@@ -10414,8 +10050,8 @@
     "defdec": "Def",
     "display": "max_err_i",
     "location": {
-      "column": "15",
-      "line": "57",
+      "column": "13",
+      "line": "59",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "max_err_i",
@@ -10428,8 +10064,8 @@
     "defdec": "Dec",
     "display": "max_err_i",
     "location": {
-      "column": "15",
-      "line": "57",
+      "column": "13",
+      "line": "59",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "max_err_i",
@@ -10442,8 +10078,8 @@
     "defdec": "Def",
     "display": "kd",
     "location": {
-      "column": "9",
-      "line": "58",
+      "column": "7",
+      "line": "60",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "kd",
@@ -10456,8 +10092,8 @@
     "defdec": "Dec",
     "display": "kd",
     "location": {
-      "column": "9",
-      "line": "58",
+      "column": "7",
+      "line": "60",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "kd",
@@ -10470,8 +10106,8 @@
     "defdec": "Def",
     "display": "err_last",
     "location": {
-      "column": "9",
-      "line": "59",
+      "column": "7",
+      "line": "61",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err_last",
@@ -10484,8 +10120,8 @@
     "defdec": "Dec",
     "display": "err_last",
     "location": {
-      "column": "9",
-      "line": "59",
+      "column": "7",
+      "line": "61",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "err_last",
@@ -10498,8 +10134,8 @@
     "defdec": "Def",
     "display": "car_sensor_read",
     "location": {
-      "column": "9",
-      "line": "61",
+      "column": "7",
+      "line": "63",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_sensor_read",
@@ -10512,8 +10148,8 @@
     "defdec": "Dec",
     "display": "car_sensor_read",
     "location": {
-      "column": "9",
-      "line": "61",
+      "column": "7",
+      "line": "63",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_sensor_read",
@@ -10527,7 +10163,7 @@
     "display": "void uart_init(void)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "65",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "uart_init",
@@ -10541,7 +10177,7 @@
     "display": "void uart_init(void)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "65",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "uart_init",
@@ -10555,7 +10191,7 @@
     "display": "int comm_init(void)",
     "location": {
       "column": "5",
-      "line": "65",
+      "line": "67",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_init",
@@ -10569,7 +10205,7 @@
     "display": "int comm_init(void)",
     "location": {
       "column": "5",
-      "line": "65",
+      "line": "67",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_init",
@@ -10583,7 +10219,7 @@
     "display": "int comm_write(char *, int)",
     "location": {
       "column": "5",
-      "line": "66",
+      "line": "68",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_write",
@@ -10597,7 +10233,7 @@
     "display": "int comm_write(char *, int)",
     "location": {
       "column": "5",
-      "line": "66",
+      "line": "68",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_write",
@@ -10611,7 +10247,7 @@
     "display": "int comm_read(char *, int, int *)",
     "location": {
       "column": "5",
-      "line": "67",
+      "line": "69",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_read",
@@ -10625,7 +10261,7 @@
     "display": "int comm_read(char *, int, int *)",
     "location": {
       "column": "5",
-      "line": "67",
+      "line": "69",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_read",
@@ -10639,7 +10275,7 @@
     "display": "void car_wait_start(void)",
     "location": {
       "column": "6",
-      "line": "69",
+      "line": "71",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_wait_start",
@@ -10653,7 +10289,7 @@
     "display": "void car_wait_start(void)",
     "location": {
       "column": "6",
-      "line": "69",
+      "line": "71",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_wait_start",
@@ -10667,7 +10303,7 @@
     "display": "int car_stop(void)",
     "location": {
       "column": "5",
-      "line": "70",
+      "line": "72",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_stop",
@@ -10681,7 +10317,7 @@
     "display": "int car_stop(void)",
     "location": {
       "column": "5",
-      "line": "70",
+      "line": "72",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_stop",
@@ -10695,7 +10331,7 @@
     "display": "int car_turn(float)",
     "location": {
       "column": "5",
-      "line": "71",
+      "line": "73",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_turn",
@@ -10709,7 +10345,7 @@
     "display": "int car_turn(float)",
     "location": {
       "column": "5",
-      "line": "71",
+      "line": "73",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_turn",
@@ -10723,7 +10359,7 @@
     "display": "int car_accelerate(float)",
     "location": {
       "column": "5",
-      "line": "72",
+      "line": "74",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_accelerate",
@@ -10737,7 +10373,7 @@
     "display": "int car_accelerate(float)",
     "location": {
       "column": "5",
-      "line": "72",
+      "line": "74",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_accelerate",
@@ -10751,7 +10387,7 @@
     "display": "int car_read_laser(float *)",
     "location": {
       "column": "5",
-      "line": "73",
+      "line": "75",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_laser",
@@ -10765,7 +10401,7 @@
     "display": "int car_read_laser(float *)",
     "location": {
       "column": "5",
-      "line": "73",
+      "line": "75",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_laser",
@@ -10779,7 +10415,7 @@
     "display": "int car_read_ultrassound(float *)",
     "location": {
       "column": "5",
-      "line": "74",
+      "line": "76",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_ultrassound",
@@ -10793,7 +10429,7 @@
     "display": "int car_read_ultrassound(float *)",
     "location": {
       "column": "5",
-      "line": "74",
+      "line": "76",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_ultrassound",
@@ -10807,7 +10443,7 @@
     "display": "int car_read_rf(float *)",
     "location": {
       "column": "5",
-      "line": "75",
+      "line": "77",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_rf",
@@ -10821,7 +10457,7 @@
     "display": "int car_read_rf(float *)",
     "location": {
       "column": "5",
-      "line": "75",
+      "line": "77",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_rf",
@@ -10835,7 +10471,7 @@
     "display": "int car_read_cam(float *)",
     "location": {
       "column": "5",
-      "line": "76",
+      "line": "78",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_cam",
@@ -10849,7 +10485,7 @@
     "display": "int car_read_cam(float *)",
     "location": {
       "column": "5",
-      "line": "76",
+      "line": "78",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_read_cam",
@@ -10863,7 +10499,7 @@
     "display": "void thread_sender_task(void *)",
     "location": {
       "column": "6",
-      "line": "78",
+      "line": "80",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_sender_task",
@@ -10877,7 +10513,7 @@
     "display": "void thread_receiver_task(void *)",
     "location": {
       "column": "6",
-      "line": "93",
+      "line": "98",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_receiver_task",
@@ -10885,13 +10521,41 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@2513@F@thread_receiver_task@i",
+    "ID": "c:system_tm4c1294.h@2600@F@thread_receiver_task@timeout",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeout",
+    "location": {
+      "column": "15",
+      "line": "105",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "timeout",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@2628@F@thread_receiver_task@TIMEOUT",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIMEOUT",
+    "location": {
+      "column": "21",
+      "line": "106",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "TIMEOUT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@3125@F@thread_receiver_task@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "104",
+      "line": "125",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "i",
@@ -10905,7 +10569,7 @@
     "display": "void thread_controller_task(void *)",
     "location": {
       "column": "6",
-      "line": "118",
+      "line": "142",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "thread_controller_task",
@@ -10919,24 +10583,10 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "152",
+      "line": "180",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "main",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@4073@F@main@thread_at",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "thread_at",
-    "location": {
-      "column": "24",
-      "line": "165",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "thread_at",
     "origin": "user_include",
     "scope": null
   },
@@ -10947,7 +10597,7 @@
     "display": "void uart_init(void)",
     "location": {
       "column": "6",
-      "line": "183",
+      "line": "213",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "uart_init",
@@ -10961,7 +10611,7 @@
     "display": "int comm_init(void)",
     "location": {
       "column": "5",
-      "line": "204",
+      "line": "246",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_init",
@@ -10975,7 +10625,7 @@
     "display": "int comm_write(char *, int)",
     "location": {
       "column": "5",
-      "line": "210",
+      "line": "252",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_write",
@@ -10989,7 +10639,7 @@
     "display": "int comm_read(char *, int, int *)",
     "location": {
       "column": "5",
-      "line": "219",
+      "line": "261",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "comm_read",
@@ -11003,7 +10653,7 @@
     "display": "void car_wait_start(void)",
     "location": {
       "column": "6",
-      "line": "246",
+      "line": "288",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_wait_start",
@@ -11011,13 +10661,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@6290@F@car_wait_start@buffer_size",
+    "ID": "c:system_tm4c1294.h@7844@F@car_wait_start@buffer_size",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer_size",
     "location": {
       "column": "13",
-      "line": "247",
+      "line": "289",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "buffer_size",
@@ -11025,13 +10675,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@6321@F@car_wait_start@buffer",
+    "ID": "c:system_tm4c1294.h@7875@F@car_wait_start@buffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer",
     "location": {
       "column": "8",
-      "line": "248",
+      "line": "290",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "buffer",
@@ -11045,7 +10695,7 @@
     "display": "int car_turn(float)",
     "location": {
       "column": "5",
-      "line": "256",
+      "line": "298",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_turn",
@@ -11053,13 +10703,13 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@6599@F@car_turn@buf",
+    "ID": "c:system_tm4c1294.h@8153@F@car_turn@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "8",
-      "line": "259",
+      "line": "301",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "buf",
@@ -11073,7 +10723,7 @@
     "display": "int car_accelerate(float)",
     "location": {
       "column": "5",
-      "line": "264",
+      "line": "306",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "car_accelerate",
@@ -11081,217 +10731,7 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@6737@F@car_accelerate@buf",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "buf",
-    "location": {
-      "column": "8",
-      "line": "265",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "buf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@car_stop",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int car_stop(void)",
-    "location": {
-      "column": "5",
-      "line": "270",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "car_stop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@6858@F@car_stop@buf",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "buf",
-    "location": {
-      "column": "8",
-      "line": "271",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "buf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@car_read_laser",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int car_read_laser(float *)",
-    "location": {
-      "column": "5",
-      "line": "276",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "car_read_laser",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@6983@F@car_read_laser@buf",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "buf",
-    "location": {
-      "column": "8",
-      "line": "277",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "buf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7023@F@car_read_laser@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "279",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7023@F@car_read_laser@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "279",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@car_read_ultrassound",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int car_read_ultrassound(float *)",
-    "location": {
-      "column": "5",
-      "line": "286",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "car_read_ultrassound",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7237@F@car_read_ultrassound@buf",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "buf",
-    "location": {
-      "column": "8",
-      "line": "287",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "buf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7283@F@car_read_ultrassound@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "289",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7283@F@car_read_ultrassound@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "289",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@car_read_rf",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int car_read_rf(float *)",
-    "location": {
-      "column": "5",
-      "line": "296",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "car_read_rf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7572@F@car_read_rf@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "299",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7572@F@car_read_rf@res",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "res",
-    "location": {
-      "column": "7",
-      "line": "299",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "res",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@car_read_cam",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int car_read_cam(float *)",
-    "location": {
-      "column": "5",
-      "line": "306",
-      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
-    },
-    "name": "car_read_cam",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:system_tm4c1294.h@7806@F@car_read_cam@buf",
+    "ID": "c:system_tm4c1294.h@8291@F@car_accelerate@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
@@ -11305,13 +10745,69 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@7855@F@car_read_cam@res",
+    "ID": "c:@F@car_stop",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int car_stop(void)",
+    "location": {
+      "column": "5",
+      "line": "312",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "car_stop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8412@F@car_stop@buf",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "buf",
+    "location": {
+      "column": "8",
+      "line": "313",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "buf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@car_read_laser",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int car_read_laser(float *)",
+    "location": {
+      "column": "5",
+      "line": "318",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "car_read_laser",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8537@F@car_read_laser@buf",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "buf",
+    "location": {
+      "column": "8",
+      "line": "319",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "buf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8577@F@car_read_laser@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
       "column": "7",
-      "line": "309",
+      "line": "321",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "res",
@@ -11319,13 +10815,167 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@7855@F@car_read_cam@res",
+    "ID": "c:system_tm4c1294.h@8577@F@car_read_laser@res",
     "What": "Variable",
     "defdec": "Def",
     "display": "res",
     "location": {
       "column": "7",
-      "line": "309",
+      "line": "321",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@car_read_ultrassound",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int car_read_ultrassound(float *)",
+    "location": {
+      "column": "5",
+      "line": "328",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "car_read_ultrassound",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8791@F@car_read_ultrassound@buf",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "buf",
+    "location": {
+      "column": "8",
+      "line": "329",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "buf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8837@F@car_read_ultrassound@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "331",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@8837@F@car_read_ultrassound@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "331",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@car_read_rf",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int car_read_rf(float *)",
+    "location": {
+      "column": "5",
+      "line": "338",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "car_read_rf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@9126@F@car_read_rf@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "341",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@9126@F@car_read_rf@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "341",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@car_read_cam",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int car_read_cam(float *)",
+    "location": {
+      "column": "5",
+      "line": "348",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "car_read_cam",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@9360@F@car_read_cam@buf",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "buf",
+    "location": {
+      "column": "8",
+      "line": "349",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "buf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@9409@F@car_read_cam@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "351",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
+    },
+    "name": "res",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@9409@F@car_read_cam@res",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "res",
+    "location": {
+      "column": "7",
+      "line": "351",
       "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\system_tm4c1294.h"
     },
     "name": "res",
@@ -12431,6 +12081,398 @@
     "scope": null
   },
   {
+    "ID": "c:string.h@100@macro@_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STRING",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "_STRING",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int memcmp(const void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memcpy(void *restrict, const void *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memmove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memmove(void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memmove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memset(void *, int, size_t)",
+    "location": {
+      "column": "45",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memset",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcat(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcoll",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcoll(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcoll",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcpy(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strcspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strerror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strerror(int)",
+    "location": {
+      "column": "45",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strerror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strlen(const char *)",
+    "location": {
+      "column": "45",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncat(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "58",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncpy(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "63",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strxfrm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strxfrm(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "66",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strxfrm",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strdup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strdup(const char *)",
+    "location": {
+      "column": "45",
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strdup",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcasecmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncasecmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "73",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok_r",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok_r(char *, const char *, char **)",
+    "location": {
+      "column": "45",
+      "line": "75",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok_r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strnlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strnlen(const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "77",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strnlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memchr(const void *, int, size_t)",
+    "location": {
+      "column": "37",
+      "line": "171",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "memchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "172",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strpbrk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strpbrk(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "173",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strpbrk",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strrchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strrchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "174",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strrchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strstr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strstr(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "175",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+    },
+    "name": "strstr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:stdio.h@99@macro@_STDIO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -12879,395 +12921,297 @@
     "scope": null
   },
   {
-    "ID": "c:string.h@100@macro@_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STRING",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "_STRING",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcmp",
-    "What": "Function",
+    "ID": "c:RTX_Config.h@os_isr_queue",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "int memcmp(const void *, const void *, size_t)",
+    "display": "os_isr_queue",
     "location": {
-      "column": "45",
-      "line": "38",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memcpy(void *restrict, const void *restrict, size_t)",
-    "location": {
-      "column": "45",
-      "line": "40",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memmove",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memmove(void *, const void *, size_t)",
-    "location": {
-      "column": "45",
-      "line": "43",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memmove",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memset(void *, int, size_t)",
-    "location": {
-      "column": "45",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "memset",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcat(char *restrict, const char *restrict)",
-    "location": {
-      "column": "45",
-      "line": "46",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcat",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcmp(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "48",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcoll",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcoll(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "49",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcoll",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcpy(char *restrict, const char *restrict)",
-    "location": {
-      "column": "45",
-      "line": "50",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcspn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strcspn(const char *, const char *)",
-    "location": {
-      "column": "45",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strcspn",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strerror",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strerror(int)",
-    "location": {
-      "column": "45",
-      "line": "53",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strerror",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strlen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strlen(const char *)",
-    "location": {
-      "column": "45",
-      "line": "54",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
-    },
-    "name": "strlen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strncat(char *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "45",
+      "column": "14",
       "line": "55",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strncat",
-    "origin": "system_include",
+    "name": "os_isr_queue",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strncmp",
+    "ID": "c:@F@osRtxThreadStackCheck",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int strncmp(const char *, const char *, size_t)",
+    "display": "void osRtxThreadStackCheck(void)",
     "location": {
-      "column": "45",
-      "line": "58",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "115",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strncmp",
-    "origin": "system_include",
+    "name": "osRtxThreadStackCheck",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strncpy",
+    "ID": "c:@F@osRtxThreadStackCheck",
     "What": "Function",
     "defdec": "Dec",
-    "display": "char * strncpy(char *restrict, const char *restrict, size_t)",
+    "display": "void osRtxThreadStackCheck(void)",
     "location": {
-      "column": "45",
-      "line": "60",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "115",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strncpy",
-    "origin": "system_include",
+    "name": "osRtxThreadStackCheck",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strspn",
+    "ID": "c:@F@osRtxThreadStackCheck",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int strspn(const char *, const char *)",
+    "defdec": "Def",
+    "display": "void osRtxThreadStackCheck(void)",
     "location": {
-      "column": "45",
-      "line": "63",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "116",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strspn",
-    "origin": "system_include",
+    "name": "osRtxThreadStackCheck",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strtok",
-    "What": "Function",
+    "ID": "c:RTX_Config.h@os_idle_thread_cb",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "char * strtok(char *restrict, const char *restrict)",
+    "display": "os_idle_thread_cb",
     "location": {
-      "column": "45",
-      "line": "64",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "22",
+      "line": "121",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strtok",
-    "origin": "system_include",
+    "name": "os_idle_thread_cb",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strxfrm",
-    "What": "Function",
+    "ID": "c:RTX_Config.h@os_idle_thread_stack",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "unsigned int strxfrm(char *restrict, const char *restrict, size_t)",
+    "display": "os_idle_thread_stack",
     "location": {
-      "column": "45",
-      "line": "66",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "17",
+      "line": "125",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strxfrm",
-    "origin": "system_include",
+    "name": "os_idle_thread_stack",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strdup",
-    "What": "Function",
+    "ID": "c:RTX_Config.h@os_idle_thread_attr",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "char * strdup(const char *)",
+    "display": "os_idle_thread_attr",
     "location": {
-      "column": "45",
-      "line": "70",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "29",
+      "line": "129",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strdup",
-    "origin": "system_include",
+    "name": "os_idle_thread_attr",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strcasecmp",
+    "ID": "c:@F@osRtxTimerThread",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int strcasecmp(const char *, const char *)",
+    "display": "void osRtxTimerThread(void *)",
     "location": {
-      "column": "45",
-      "line": "71",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "227",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strcasecmp",
-    "origin": "system_include",
+    "name": "osRtxTimerThread",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strncasecmp",
+    "ID": "c:@F@osRtxTimerThread",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int strncasecmp(const char *, const char *, size_t)",
+    "display": "void osRtxTimerThread(void *)",
     "location": {
-      "column": "45",
-      "line": "73",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "227",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strncasecmp",
-    "origin": "system_include",
+    "name": "osRtxTimerThread",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strtok_r",
+    "ID": "c:@F@osRtxTimerThread",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strtok_r(char *, const char *, char **)",
+    "defdec": "Def",
+    "display": "void osRtxTimerThread(void *)",
     "location": {
-      "column": "45",
-      "line": "75",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "13",
+      "line": "228",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strtok_r",
-    "origin": "system_include",
+    "name": "osRtxTimerThread",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strnlen",
-    "What": "Function",
+    "ID": "c:@osRtxConfig",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "size_t strnlen(const char *, size_t)",
+    "display": "osRtxConfig",
     "location": {
-      "column": "45",
-      "line": "77",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "21",
+      "line": "409",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strnlen",
-    "origin": "system_include",
+    "name": "osRtxConfig",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@memchr",
-    "What": "Function",
+    "ID": "c:@irqRtxLib",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "void * memchr(const void *, int, size_t)",
+    "display": "irqRtxLib",
     "location": {
-      "column": "37",
-      "line": "171",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "23",
+      "line": "517",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "memchr",
-    "origin": "system_include",
+    "name": "irqRtxLib",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strchr",
-    "What": "Function",
+    "ID": "c:@irqRtxLibRef",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "char * strchr(const char *, int)",
+    "display": "irqRtxLibRef",
     "location": {
-      "column": "37",
-      "line": "172",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "23",
+      "line": "518",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strchr",
-    "origin": "system_include",
+    "name": "irqRtxLibRef",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strpbrk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strpbrk(const char *, const char *)",
+    "ID": "c:@irqRtxLibRef",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "irqRtxLibRef",
     "location": {
-      "column": "37",
-      "line": "173",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "23",
+      "line": "519",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strpbrk",
-    "origin": "system_include",
+    "name": "irqRtxLibRef",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strrchr",
-    "What": "Function",
+    "ID": "c:@irqRtxLibRef",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "char * strrchr(const char *, int)",
+    "display": "irqRtxLibRef",
     "location": {
-      "column": "37",
-      "line": "174",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "23",
+      "line": "519",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strrchr",
-    "origin": "system_include",
+    "name": "irqRtxLibRef",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@strstr",
+    "ID": "c:@osRtxUserSVC",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "osRtxUserSVC",
+    "location": {
+      "column": "21",
+      "line": "525",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
+    },
+    "name": "osRtxUserSVC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@osRtxUserSVC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "osRtxUserSVC",
+    "location": {
+      "column": "21",
+      "line": "526",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
+    },
+    "name": "osRtxUserSVC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@osRtxUserSVC",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "osRtxUserSVC",
+    "location": {
+      "column": "21",
+      "line": "526",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
+    },
+    "name": "osRtxUserSVC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@osRtxKernelPreInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "char * strstr(const char *, const char *)",
+    "display": "void osRtxKernelPreInit(void)",
     "location": {
-      "column": "37",
-      "line": "175",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\string.h"
+      "column": "6",
+      "line": "669",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
     },
-    "name": "strstr",
-    "origin": "system_include",
+    "name": "osRtxKernelPreInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@osRtxKernelPreInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void osRtxKernelPreInit(void)",
+    "location": {
+      "column": "6",
+      "line": "669",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
+    },
+    "name": "osRtxKernelPreInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@osRtxKernelPreInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void osRtxKernelPreInit(void)",
+    "location": {
+      "column": "6",
+      "line": "670",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\RTX_Config.h"
+    },
+    "name": "osRtxKernelPreInit",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -13352,6 +13296,76 @@
     },
     "name": "__data_size_t",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:TM4C1294NCPDT.h@741@macro@__CONFIG_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__CONFIG_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
+    },
+    "name": "__CONFIG_CLOCK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:TM4C1294NCPDT.h@901@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "20",
+      "line": "33",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
+    },
+    "name": "SystemCoreClock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "39",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "47",
+      "path": "G:\\Meu Drive\\utfpr\\2021-1\\sistemas embarcados\\EK-TM4C1294_RTOS_IAR8-master\\Projects\\tarefas\\src\\TM4C1294NCPDT.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
     "scope": null
   },
   {
